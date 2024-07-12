@@ -29,4 +29,7 @@ function test(params) {
   "use strict";
 }
 ```
- > **Note:** Once strict mode get activated where is no way going back.
+
+> **Note:** Once strict mode get activated where is no way going back.
+
+> **Imp Note:** To activate the strict mode it should be declare at the very begining of the code.Not in the between nor at the end.
