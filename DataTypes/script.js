@@ -32,3 +32,9 @@ console.log(greater);
 let data=null;
 console.log(data);
 console.log(typeof data);
+
+let age1;
+console.log(age1);//undefine
+let experience=30;
+experience=undefined;
+console.log(experience);

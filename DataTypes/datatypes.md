@@ -87,7 +87,7 @@ console.log(greater);
 
 ## Null
 
-`Null does not specify any datatypes.It forms a separe type which contain only null value.`
+`Null does not specify any datatypes.It forms a separate type which contain only null value.`
 `In JS null represent empty or nothing.`
 
 ```javascript
@@ -95,3 +95,16 @@ let age = null;
 console.log(age); //null
 console.log(typeof age); //object
 ```
+
+## Undefined
+
+`When the value is declared and not assigned then the value is undefine.Just like null it is also make of its own.`
+
+```javascript
+let age1;
+console.log(age); //undefine
+let experience = 30;
+experience = undefined;
+console.log(experience); //undefine
+```
+**Datetypes which makes its own type is of object type**
