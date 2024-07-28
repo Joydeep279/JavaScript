@@ -47,7 +47,39 @@ console.log(test); //1
 > To declare bigInt number **n** is added in end of the digit.
 
 ```javascript
-let bigInt=12464579576324678678n;
+let bigInt = 12464579576324678678n;
 ```
->We will drive deep later.
 
+> We will drive deep later.
+
+## String
+
+`String must be surrounded by Quotes.`
+
+```javascript
+let first = "Joy"; //using single qoutes
+let last = "Deep"; //using double qoutes
+let str3 = `Name:${first + last}`; //using backticks
+```
+
+> In backticks inside curly barceses we can use any js expression.
+
+**Example**
+
+```javascript
+let str=`Sum: ${10+30}`;
+console.log(str);
+```
+## Boolean
+
+`The boolean have only two values either true or false`
+`It is used to store yes or no type of data`
+
+```javascript
+let age=true;
+console.log(age);//true
+let greater=5>3;
+console.log(greater);//true
+greater=1>5;
+console.log(greater);
+```
