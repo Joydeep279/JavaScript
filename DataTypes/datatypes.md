@@ -31,7 +31,7 @@ console.log(typeof test1); //number
 console.log(test1); //NaN
 ```
 
-> **Note: NaN ** 0 =1**
+> **Note: NaN ** 0 =1\*\*
 
 ```javascript
 let test = NaN ** 0;
@@ -39,3 +39,15 @@ console.log(test); //1
 ```
 
 > **This happend because the ** operator is used for the exponential value.So the NaN ** 0 => NaN⁰ =1**
+
+## BigInt
+
+`Javascript number cannot store number greater than (2⁵³-1) and less than -(2⁵³-1).Here comes bigInt into play to store number greater than the number limits.`
+
+> To declare bigInt number **n** is added in end of the digit.
+
+```javascript
+let bigInt=12464579576324678678n;
+```
+>We will drive deep later.
+
