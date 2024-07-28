@@ -30,3 +30,5 @@ greater = 1 > 5;
 console.log(greater);
 
 let data=null;
+console.log(data);
+console.log(typeof data);

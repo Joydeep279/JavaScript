@@ -67,19 +67,31 @@ let str3 = `Name:${first + last}`; //using backticks
 **Example**
 
 ```javascript
-let str=`Sum: ${10+30}`;
+let str = `Sum: ${10 + 30}`;
 console.log(str);
 ```
+
 ## Boolean
 
 `The boolean have only two values either true or false`
 `It is used to store yes or no type of data`
 
 ```javascript
-let age=true;
-console.log(age);//true
-let greater=5>3;
-console.log(greater);//true
-greater=1>5;
+let age = true;
+console.log(age); //true
+let greater = 5 > 3;
+console.log(greater); //true
+greater = 1 > 5;
 console.log(greater);
+```
+
+## Null
+
+`Null does not specify any datatypes.It forms a separe type which contain only null value.`
+`In JS null represent empty or nothing.`
+
+```javascript
+let age = null;
+console.log(age); //null
+console.log(typeof age); //object
 ```
