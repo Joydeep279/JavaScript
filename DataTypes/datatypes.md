@@ -107,4 +107,3 @@ let experience = 30;
 experience = undefined;
 console.log(experience); //undefine
 ```
-**Datetypes which makes its own type is of object type**
