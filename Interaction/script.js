@@ -18,6 +18,7 @@ if (isage) {
   alert("Enter the Website!");
 } else {
   alert("You Can't Enter the Website!");
+  close();
 }
 
 setInterval(() => {
