@@ -53,3 +53,20 @@ const trial = age >= 18 ? alert("You can Vote") : alert("You Can't");
 ```
 
 > In the above condition we can use the ternary operator for different purpose.But we prefer to use If Else statement as it prevent code expansion horizontally.
+
+## Chaining ElseIf
+
+> When multiple condition with different statement arises we need to use the conditional branching.
+
+```javascript
+const age=prompt("Enter the Age");
+if (age<=10) {
+  alert("Your are a kid");
+}
+elseif(age>10 && age<18){
+  alert("You are a teen");
+}
+else{
+  alert("You are a Adult");
+}
+```
