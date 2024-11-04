@@ -1,0 +1,10 @@
+let a = null;
+let b = undefined;
+const result = a ?? b;
+console.log(result);
+a = 0;
+b = 1;
+console.log(a || b);
+console.log(a ?? b);
+const data=10 + 23||12;
+console.log(data);
