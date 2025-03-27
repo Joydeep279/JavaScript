@@ -21,3 +21,8 @@ let apple = 30;
 data = 30;
 
 console.log(data);
+class Person {
+  constructor(name) {
+    this.name = name;
+  }
+}
